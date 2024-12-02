@@ -1,6 +1,11 @@
 # DevTools
 
+
+
+
 ![Logo DevTools](./img/devtools.png) 
+
+
 
 
 ## 📖 Description  
@@ -47,5 +52,6 @@ Les DevTools (Developer Tools) sont des outils intégrés dans les navigateurs w
 - **Captures d'écran** : Illustrations des différentes fonctionnalités explorées.  
 
 ## 🚀 Comment utiliser ce projet  
-1. Clonez ou téléchargez ce dépôt sur votre machine locale :
-   git clone 
+1. Clonez ou téléchargez ce dépôt sur votre machine locale :  
+   ```bash
+   git clone https://github.com/harishammache/holbertonschool-web-development/tree/main/developer_tools
