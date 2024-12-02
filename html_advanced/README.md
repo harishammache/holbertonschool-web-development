@@ -1,6 +1,9 @@
 # HTML, advanced
 
+
 ![Logo hmtml](../html_advanced/img/html.png)
+
+
 
 ## 📖 Description
 Ce projet consiste à reproduire la structure HTML d'une page web à partir d'un design fourni sur **Figma**, en respectant les principes de sémantique HTML.  
