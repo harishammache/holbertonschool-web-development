@@ -1,7 +1,7 @@
 # HTML, advanced
 
 
-![Logo hmtml](../html_advanced/img/html.png)
+![Logo html](../html_advanced/img/html.png)
 
 
 
@@ -40,4 +40,4 @@ Ce projet consiste à reproduire la structure HTML d'une page web à partir d'un
 
 ## 🚀 Comment utiliser ce projet
 1. Clonez ou téléchargez ce dépôt sur votre machine locale :
-   git clone https://github.com/harishammache/holbertonschool-web-development.git
+   git clone https://github.com/harishammache/holbertonschool-web-development/tree/main/html_advanced
