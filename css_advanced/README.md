@@ -1,6 +1,6 @@
 # CSS, advanced
 
-[!Logo css](../css_advanced/img/css.jpg)
+[!Logo css](./img/css.jpg)
 
 
 
