@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
-
-* {
-    background-color: black;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -24,14 +19,415 @@ header nav ul li{
 header nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 12px;
+    width: 50;
+    height: 15;
     font-family: 'Source Sans Pro';
     font-weight: bold;
 }
 
 header a img{
     margin-top: 18px;
-    width: 46%;
-    height: auto;
-    padding-left: 100px;
+    width: 167.02;
+    height: 29.46;
+    margin-left: 50px;
 }
+
+.background {
+    background-image: url(./img/smileschoolbackground.png);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.section-1 div h1 {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 120px;
+    margin-bottom: 5px;
+}
+
+.section-1 div div {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    color: #FFFFFF;
+}
+
+.section-1 div div p {
+    margin: 0 30px;
+    width: 52;
+    height: 20;
+}
+
+.section-1 div button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 20px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.section-1 div h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
+    margin-top: 200px;
+    margin-bottom: 90px;
+}
+
+.image-pro {
+    gap: 100px;
+}
+
+.image-pro img {
+    width: 150px;
+    height: 150px;
+}
+
+.image-pro div {
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-pro div p {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+}
+
+.image-pro div h3 {
+    margin-bottom: 5px;
+}
+
+
+/* section person Name */
+
+.person-name {
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 392px;
+}
+
+.img-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.img-person-name img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.information-person-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information-person-name {
+    text-align: left;
+}
+
+.information-person-name blockquote {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.information-person-name cite{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+}
+
+.information-person-name p {
+    font-style: italic;
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+
+/* Most popular tutorials */
+
+.popular-tuto {
+    margin: 100px 200px;
+    height: 450px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.popular-tuto h1 {
+    color: #071629;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Source Sans Pro';
+}
+
+.image-star {
+    width: 255px;
+    height: 154px;
+}
+
+.vidéo {
+    display: flex;           
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;             
+    flex-wrap: nowrap;
+}
+
+.vidéo h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.vidéo p {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-size: 14px;
+    color: #071629;
+}
+
+.author-information {
+    display: flex;
+    gap: 10px;
+}
+
+.author-information img {
+    width: 30px;
+    height: 30px;
+}
+
+.author-information h3 {
+    margin: 4px;
+    width: 86px;
+    height: 27px;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #C271FF;
+}
+
+.rating {
+    display: flex;
+    gap: 100px
+}
+
+.rating p {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 14px;
+    color: #C271FF;
+    margin: 8px;
+
+}
+.star {
+    margin-top: 8px;
+    white-space: nowrap;
+    gap: 8px;
+}
+
+.star img {
+    width: 15px;
+    height: 15px;
+}
+
+.free-membership {
+    height: 502px;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.free-membership h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 32px;
+    font-family: 'Source Sans Pro';
+    padding-bottom: 30px;
+}
+
+.lorem-ipsum {
+    color: #FFFFFF;
+    display: flex;           
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 150px;             
+    flex-wrap: nowrap;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.lorem-ipsum div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lorem-ipsum img {
+    width: 43.67px;
+    height: 35.35px;  
+    margin-bottom: 10px;
+}
+
+.lorem-ipsum h2 {
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.lorem-ipsum p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.free-membership button {
+    margin-top: 80px;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 500px;
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+/* F.A.Q */
+
+.FAQ {
+    margin: 70px auto;
+    width: 920px;
+    height: 707px;
+}
+
+.FAQ h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 60px;
+    line-height: auto;
+    font-weight: lighter;
+}
+
+.first-para {
+    display: flex;
+    gap: 210px;
+    margin-bottom: 60px;
+}
+
+.second-para {
+    display: flex;
+    gap: 210px;
+}
+
+.FAQ h2 {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.FAQ p {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* footer */
+.footer-section {
+    background-color: #333;
+    color: #ffffff;
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.logo-smileschool {
+    max-width: 150px;
+}
+
+.logo-reseau {
+    display: flex;
+    gap: 20px;
+    width: 130px;
+    height: 30px;
+}
+
+.logo-reseau a {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.logo-reseau img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 20px;
+    font-family: 'Source Sans Pro';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
